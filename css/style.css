@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* section {
+  border: 1px solid red;
+}
+main {
+  border: 1px solid yellow;
+} */
+
+/* .container {
+  border: 1px solid red;
+} */
+/*---------- navbar -----------*/
+
+.logo_icon {
+  width: 70px;
+}
+
+.brand {
+  font-size: 1.5em;
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  padding: 12px 16px;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 1em;
+  font-size: 1.1em;
+}
+
+.navbar-nav .nav-item:hover {
+  border-bottom: 1px solid red;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+
+/*--------------- carousel image -------------*/
+
+.carousel .carousel-item img {
+  width: 100%;
+  height: 600px;
+}
+
+.header_item {
+  padding-top: 10%;
+}
+
+.header_item h1 {
+  color: brown;
+  font-weight: 800;
+  padding-left: 5%;
+}
+
+.header_item h3 {
+  color: #3f3f3f;
+  font-weight: 700;
+  padding-left: 5%;
+}
+
+.header_item p {
+  padding-left: 5%;
+}
+
+.header_item .btn{
+  margin-left: 5%;
+}
+
+/*-------------- about --------------------*/
+
+.about_img {
+  margin-top: 10%;
+  width: 100%;
+  height: 600px;
+}
+
+.title {
+  margin-top: 33%;
+  margin-left: 8%;
+  color: brown;
+  font-size: 3.6em;
+  font-weight: 700;
+}
+
+.paragraph {
+  text-align: justify;
+  margin: 25px 8%;
+}
+
+.animate {
+  transition: all .55s ease !important;
+}
+
+.animate:hover{
+  transform: translateX(5px);
+}
+
+/*------------ product ---------*/
+
+.product_page {
+  background-color: #f1f1f1;
+}
+
+.product_page img {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  border: none !important;
+  box-shadow: 2px 2px 18px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all .35s ease;
+}
+
+.card:hover{
+  transform: translateY(-12px);
+}
+
+.card-footer {
+  border-top: 1px solid #f0e9e9 !important;
+  background-color: #ffff !important;
+}
+
+/*------------------ contact --------------*/
+
+footer {
+  background-color: #3b3b3b;
+  list-style: none;
+}
+
+.contact_contact li a {
+  /* border: 1px solid red; */
+  display: inline-block;
+  text-decoration: none;
+  color: #f2f2f2;
+  line-height: 29px;
+  transition: all .45s ease;
+}
+
+.contact_contact li a:hover{
+  transform: translateX(-10px);
+}
+
+.contact_text {
+  display: inline-block;
+  color: #f2f2f2;
+  /* border-bottom: 3px solid #f2f2f2; */
+  padding-bottom: 2px;
+}
+
+.copy_right p{
+  text-align: center;
+  font-size: 1.1em;
+  margin-top: 12px;
+}

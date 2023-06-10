@@ -1,0 +1,292 @@
+
+/*--------------- laptop size responsive -----------*/
+
+@media screen and (max-width: 1200px) {
+  .carousel .carousel-item img {
+    width: 100%;
+    height: 420px;
+  }
+
+  .header_item {
+    padding-top: 7%;
+  }
+
+  .header_item .btn{
+    font-size: 0.7em;
+  }
+
+  .title {
+    margin-top: 22%;
+    font-size: 2.4em;
+  }
+
+  .about_img {
+    width: 100%;
+    height: auto;
+  }
+  
+}
+
+
+
+
+/*--------------- tablet size responsive -----------*/
+
+@media screen and (max-width: 768px) {
+
+  .carousel .carousel-item img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .header_item {
+    padding-top: 8%;
+  }
+
+  .header_item h1 {
+    font-size: 1.6em;
+  }
+
+  .header_item p {
+    font-size: 14px;
+  }
+
+  .header_item h3 {
+    font-size: 1.3em;
+  }
+
+  .header_item .btn{
+    font-size: 0.8em;
+  }
+
+  .title {
+    margin-top: 24%;
+    font-size: 2em;
+  }
+
+  .paragraph {
+    font-size: 14px;
+  }
+
+  .about_img {
+    margin-top: 15%;
+    width: 100%;
+    height: 90%;
+  }
+
+  .bag1 .btn {
+    font-size: 0.8em;
+  }
+}
+
+
+
+
+
+
+
+/*--------------- mobile size responsive -----------*/
+
+@media screen and (max-width: 576px) {
+  .carousel .carousel-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+  }
+
+  .header_item {
+    padding-top: 10%;
+  }
+
+  .header_item h1 {
+    font-size: 1.3em;
+  }
+
+  .header_item h3 {
+    font-size: 0.9em;
+  }
+
+  .header_item .btn{
+    font-size: 0.6em;
+  }
+
+  .about_mobile {
+    width: 100%;
+    height: auto;
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  .bag1 .btn {
+    font-size: 0.7em;
+  }
+
+  .card-footer span, .contact_contact li a {
+    font-size: 0.9em;
+  }
+  
+  .card .btn {
+    font-size: 12px;
+  }
+
+  .navbar-nav .nav-item:hover {
+    border-bottom: none;
+  }
+
+}
+
+
+/*--------------- desktop size responsive -----------*/
+
+@media screen and (min-width: 1400px) {
+
+  .navbar-nav .nav-item {
+    /* margin-right: 2em; */
+    font-size: 1.4em;
+  }
+
+  .carousel .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .title {
+    margin-top: 23%;
+  }
+
+  .paragraph, .card-footer span {
+    font-size: 1.3em;
+  }
+
+  .about_img {
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .contact_contact li a {
+    font-size: 1.1em;
+  }
+
+  .copy_right p {
+    font-size: 1.2em;
+  }
+}
+
+
+/*--------------- desktop 4k size responsive -----------*/
+
+@media screen and (min-width: 2300px) {
+
+  .logo_icon {
+    width: 180px;
+    height: 100px;
+  }
+
+  .brand {
+    font-size: 3.5em;
+  }
+
+  .navbar-nav .nav-item {
+    margin-right: 2em;
+    font-size: 2.3em;
+  }
+
+  .navbar-nav .nav-item:hover {
+    border-bottom: 2px solid rgb(255, 0, 0);
+  } 
+
+  .carousel .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel button {
+    padding: 2px 18px !important;
+  }
+
+  .header_item {
+    padding-top: 9%;
+  }
+
+  .header_item h1 {
+    font-size: 7em;
+    padding-left: 5%;
+  }
+
+  .header_item h3 {
+    font-size: 4em;
+    padding-left: 5%;
+    padding-top: 2%;
+  }
+
+  .header_item p {
+    font-size: 2em;
+    padding-left: 5%;
+    padding-top: 2%;
+  }
+
+  .header_item .btn{
+    font-size: 2em;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+
+  .title {
+    margin-top: 25%;
+    font-size: 6em;
+  }
+
+  .paragraph {
+    padding: 2% 0;
+    font-size: 2em;
+  }
+
+  .bag1 .btn {
+    padding: 12px 18px ;
+    font-size: 2em;
+  }
+
+  .bag1 button {
+    margin-left: 10% !important;
+  }
+
+  .about_img {
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .card .btn{
+    font-size: 1.7em;
+    padding: 12px 16px;
+  }
+
+  .card-footer span {
+    font-size: 2.5em;
+  }
+
+  .card-footer {
+    border-top: 2px solid #f0e9e9 !important;
+    background-color: #ffff !important;
+  }
+
+  .contact_contact {
+    margin: 14px 0px;
+  }
+
+  .contact_contact li a {
+    font-size: 2em;
+    margin-left: 18%;
+    padding: 5px 9px;
+    line-height: 43px;
+  }
+
+  .copy_right p {
+    font-size: 2.3em;
+  }
+
+}
+

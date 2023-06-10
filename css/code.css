@@ -1,0 +1,150 @@
+
+
+/*--------------- laptop size responsive -----------*/
+
+@media screen and (max-width: 1200px) {
+  .carousel .carousel-item img {
+    width: 100%;
+    height: 420px;
+  }
+
+  .header_item {
+    padding-top: 7%;
+  }
+
+  .header_item .btn{
+    font-size: 0.7em;
+  }
+
+  .title {
+    font-size: 2.4em;
+  }
+
+  .about_img {
+    width: 100%;
+    height: 90%;
+  }
+  
+
+  
+}
+
+
+
+
+/*--------------- tablet size responsive -----------*/
+
+@media screen and (max-width: 768px) {
+
+  .carousel .carousel-item img {
+    width: 100%;
+    height: 400px;
+    /* object-fit: contain; */
+  }
+
+  .header_item {
+    padding-top: 8%;
+  }
+
+  .header_item h1 {
+    font-size: 1.6em;
+  }
+
+  .header_item p {
+    font-size: 14px;
+  }
+
+  .header_item h3 {
+    font-size: 1.3em;
+  }
+
+  .header_item .btn{
+    font-size: 0.8em;
+  }
+
+  .title {
+    margin-top: 24%;
+    font-size: 2em;
+  }
+
+  .paragraph {
+    font-size: 14px;
+  }
+
+  .about_img {
+    margin-top: 15%;
+    width: 100%;
+    height: 90%;
+  }
+
+  .bag1 .btn {
+    font-size: 0.8em;
+  }
+}
+
+
+
+
+
+
+
+/*--------------- mobile size responsive -----------*/
+
+@media screen and (max-width: 576px) {
+  .carousel .carousel-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+  }
+
+  .header_item {
+    /* border: 1px solid red; */
+    padding-top: 10%;
+  }
+
+  .header_item h1 {
+    font-size: 1.5em;
+  }
+
+  .header_item h3 {
+    font-size: 1.1em;
+  }
+
+  .header_item .btn{
+    font-size: 0.7em;
+  }
+
+  .about_mobile {
+    width: 100%;
+    height: auto;
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  .bag1 .btn {
+    font-size: 0.8em;
+  }
+  
+  .contact_contact li a {
+    font-size: 0.9em;
+  }
+
+  .card .btn {
+    font-size: 12px;
+  }
+
+  .navbar-nav .nav-item:hover {
+    border-bottom: none;
+  }
+
+  /* .navbar-nav {
+    border-top: 1px solid #d4d4d4;
+  }
+  
+  .navbar-toggler {
+    margin-bottom: 12px;
+  } */
+}
+
